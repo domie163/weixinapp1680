@@ -1,0 +1,86 @@
+figure img {
+	width: 100%;
+}
+
+/* LOGO */
+#header .logo {
+	float: left;
+	max-width: 2.75rem;
+	padding-top: 0.25rem;
+}
+
+/* /LOGO */
+
+/* NAV */
+#nav {
+	padding: 0.5rem 0;
+}
+
+@media (min-width:992px) {
+	#nav {
+		float: left;
+	}
+}
+
+@media (max-width:991px) {
+	#nav {
+		position: relative;
+	}
+
+	#nav .collapse {
+		top: 100%;
+	}
+
+	#nav {
+		width: 4rem;
+		float: right;
+	}
+}
+
+/* /NAV */
+
+/* USER_action */
+#header .user a {
+	line-height: 1;
+}
+
+#header .user a>i {
+	font-size: 2rem;
+}
+
+/* /USER_action */
+
+/* 搜索栏 */
+.form-inline {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#header {
+	text-align: center;
+}
+
+@media (max-width:575px) {
+	.form-inline {
+		display: none;
+	}
+}
+
+@media (min-width:992px) {
+	.form-inline {
+		float: right;
+		padding-top: 0.5rem;
+	}
+}
+
+/* /搜索栏 */
+
+/* 版权 */
+.copyright {
+	margin: 0 auto;
+	line-height: 55px;
+	text-align: center;
+	font-size: 14px;
+	color: #6C7179;
+}
+/* 版权 */

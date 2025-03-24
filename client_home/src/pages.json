@@ -1,0 +1,367 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "新闻资讯"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "新闻资讯列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "新闻资讯详情"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告通知列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告通知"
+			}
+		},
+							// 实验室列表路由
+		{
+			"path": "pages/laboratory/list",
+			"style": {
+				"navigationBarTitleText": "实验室列表"
+			}
+		},
+				// 实验室详情路由
+		{
+			"path": "pages/laboratory/details",
+			"style": {
+				"navigationBarTitleText": "实验室"
+			}
+		},
+				// 预约信息编辑路由
+		{
+			"path": "pages/appointment_information/edit",
+			"style": {
+				"navigationBarTitleText": "预约信息"
+			}
+		},
+							// 设备器材列表路由
+		{
+			"path": "pages/equipment_and_equipment/list",
+			"style": {
+				"navigationBarTitleText": "设备器材列表"
+			}
+		},
+				// 设备器材详情路由
+		{
+			"path": "pages/equipment_and_equipment/details",
+			"style": {
+				"navigationBarTitleText": "设备器材"
+			}
+		},
+				// 设备借用编辑路由
+		{
+			"path": "pages/equipment_borrowing/edit",
+			"style": {
+				"navigationBarTitleText": "设备借用"
+			}
+		},
+																// 实验耗材列表路由
+		{
+			"path": "pages/experimental_consumables/list",
+			"style": {
+				"navigationBarTitleText": "实验耗材列表"
+			}
+		},
+				// 实验耗材详情路由
+		{
+			"path": "pages/experimental_consumables/details",
+			"style": {
+				"navigationBarTitleText": "实验耗材"
+			}
+		},
+				// 购买订单编辑路由
+		{
+			"path": "pages/purchase_order/edit",
+			"style": {
+				"navigationBarTitleText": "购买订单"
+			}
+		},
+						// 注册用户列表路由
+		{
+			"path": "pages/registered_users/table",
+			"style": {
+				"navigationBarTitleText": "注册用户列表"
+			}
+		},
+		// 注册用户编辑路由
+		{
+			"path": "pages/registered_users/view",
+			"style": {
+				"navigationBarTitleText": "注册用户详情"
+			}
+		},
+				// 实验室列表路由
+		{
+			"path": "pages/laboratory/table",
+			"style": {
+				"navigationBarTitleText": "实验室列表"
+			}
+		},
+		// 实验室编辑路由
+		{
+			"path": "pages/laboratory/view",
+			"style": {
+				"navigationBarTitleText": "实验室详情"
+			}
+		},
+				// 预约信息列表路由
+		{
+			"path": "pages/appointment_information/table",
+			"style": {
+				"navigationBarTitleText": "预约信息列表"
+			}
+		},
+		// 预约信息编辑路由
+		{
+			"path": "pages/appointment_information/view",
+			"style": {
+				"navigationBarTitleText": "预约信息详情"
+			}
+		},
+				// 设备器材列表路由
+		{
+			"path": "pages/equipment_and_equipment/table",
+			"style": {
+				"navigationBarTitleText": "设备器材列表"
+			}
+		},
+		// 设备器材编辑路由
+		{
+			"path": "pages/equipment_and_equipment/view",
+			"style": {
+				"navigationBarTitleText": "设备器材详情"
+			}
+		},
+				// 设备借用列表路由
+		{
+			"path": "pages/equipment_borrowing/table",
+			"style": {
+				"navigationBarTitleText": "设备借用列表"
+			}
+		},
+		// 设备借用编辑路由
+		{
+			"path": "pages/equipment_borrowing/view",
+			"style": {
+				"navigationBarTitleText": "设备借用详情"
+			}
+		},
+				// 设备归还列表路由
+		{
+			"path": "pages/equipment_return/table",
+			"style": {
+				"navigationBarTitleText": "设备归还列表"
+			}
+		},
+		// 设备归还编辑路由
+		{
+			"path": "pages/equipment_return/view",
+			"style": {
+				"navigationBarTitleText": "设备归还详情"
+			}
+		},
+				// 报修检修列表路由
+		{
+			"path": "pages/repair_and_maintenance_report/table",
+			"style": {
+				"navigationBarTitleText": "报修检修列表"
+			}
+		},
+		// 报修检修编辑路由
+		{
+			"path": "pages/repair_and_maintenance_report/view",
+			"style": {
+				"navigationBarTitleText": "报修检修详情"
+			}
+		},
+				// 记录日志列表路由
+		{
+			"path": "pages/record_log/table",
+			"style": {
+				"navigationBarTitleText": "记录日志列表"
+			}
+		},
+		// 记录日志编辑路由
+		{
+			"path": "pages/record_log/view",
+			"style": {
+				"navigationBarTitleText": "记录日志详情"
+			}
+		},
+				// 实验耗材列表路由
+		{
+			"path": "pages/experimental_consumables/table",
+			"style": {
+				"navigationBarTitleText": "实验耗材列表"
+			}
+		},
+		// 实验耗材编辑路由
+		{
+			"path": "pages/experimental_consumables/view",
+			"style": {
+				"navigationBarTitleText": "实验耗材详情"
+			}
+		},
+				// 购买订单列表路由
+		{
+			"path": "pages/purchase_order/table",
+			"style": {
+				"navigationBarTitleText": "购买订单列表"
+			}
+		},
+		// 购买订单编辑路由
+		{
+			"path": "pages/purchase_order/view",
+			"style": {
+				"navigationBarTitleText": "购买订单详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "新闻资讯",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
